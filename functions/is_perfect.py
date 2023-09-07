@@ -3,7 +3,4 @@ def is_perfect(n):
     for i in range(1,n):
         if n%i == 0:
             sum = sum + i
-    if sum == n:
-        return True
-    else:
-        return False
+    return sum == n
